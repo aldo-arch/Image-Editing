@@ -1,0 +1,6 @@
+w = getWidth(); 
+h = getHeight(); 
+makeRectangle(1, 1, w-10, h-10);
+run("Crop"); 
+run("Select None"); 
+run("Canvas Size...", "width="+w+" height="+h+" position=Center"); 
